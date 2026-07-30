@@ -21,22 +21,27 @@
     "@aws-sdk/client-ses": "^3.1087.0",
     "@aws-sdk/client-sqs": "^3.1087.0",
     "@aws-sdk/lib-dynamodb": "^3.1087.0",
+    "aws-amplify": "^6.19.0",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.24.0",
+    "@aws-amplify/backend-cli": "^1.9.0",
     "@types/adm-zip": "^0.5.7",
     "@types/node": "^22.13.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "@vitest/coverage-v8": "^3.0.5",
     "adm-zip": "^0.5.16",
+    "aws-cdk-lib": "^2.244.0",
     "aws-sdk-client-mock": "^4.1.0",
-    "esbuild": "^0.25.0",
+    "constructs": "^10.7.2",
+    "esbuild": "^0.25.12",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.5.0",
-    "tsx": "^4.19.2",
-    "typescript": "~5.5.4",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3",
     "vitest": "^3.0.5"
   }
 }

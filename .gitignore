@@ -31,3 +31,8 @@ pnpm-debug.log*
 *.sw?
 .gemini/
 .system_generated/
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
