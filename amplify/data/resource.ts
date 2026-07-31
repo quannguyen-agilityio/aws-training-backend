@@ -1,7 +1,7 @@
 import { type ClientSchema, a, defineData } from '@aws-amplify/backend';
 
 const schema = a.schema({
-  ApexPlayer: a
+  ApexPlayer: a // ApexPlayer: table name
     .model({
       teamId: a.string().required(),
       playerId: a.string().required(),
@@ -9,6 +9,7 @@ const schema = a.schema({
       email: a.string(),
       status: a.enum(['ACTIVE', 'INJURED', 'INACTIVE']),
     })
+    .identifier(['teamId', 'playerId'])
     .authorization((allow) => [allow.authenticated()]),
 });
 
